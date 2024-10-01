@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f1f4f9;
+}
+.containers{
+    width: 500px;
+    height: 630px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 12px;
+    transform: translate(-50%,-50%);
+}
+.containers h1{
+    text-align: center;
+}
+.containers .para{
+    text-align: center;
+}
+.containers .facebook{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 102, 255);
+    margin-top: 30px;
+    border: none;
+    color: white;
+    border-radius: 22px;
+    padding: 10px 20px;
+}
+.containers .facebook img{
+    width: 30px;
+    height: 30px;
+}
+.containers .facebook p{
+    margin-left: 20px;
+}
+
+
+.containers .google{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #f1f4f9;
+    margin-top: 30px;
+    border: none;
+    justify-content: center;
+    color: black;
+    border-radius: 22px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.containers .google img{
+    width: 30px;
+    height: 30px;
+}
+.containers .google p{
+    margin-left: 20px;
+}
+
+
+.containers form input[type=text]{
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    background: #f1f4f9;
+    border-radius: 12px;
+}
+.containers form input[type=email]{
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    background: #f1f4f9;
+    border-radius: 12px;
+}
+.containers form input[type=password]{
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    background: #f1f4f9;
+    border-radius: 12px;
+}
+.containers .checked{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.containers .checked span{
+    margin-left: 20px;
+}
+.containers form button{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 12px;
+}
+.containers form small a{
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+.containers form .link{
+    text-decoration: none;
+    color: black;
+}
