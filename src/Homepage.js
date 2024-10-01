@@ -41,7 +41,7 @@ const Homepage = () => {
       </div>
       <div className='top-navbar'>
         <div className='left-side'>
-          <h1>CokSine</h1>
+          <h1>CokSinesss</h1>
         </div>
         <div className='center-side'>
           <div className='list-menus'>
